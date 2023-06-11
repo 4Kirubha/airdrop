@@ -148,13 +148,13 @@ export default function Home(){
     })*/
     
 
-    /*useEffect(() => {
+    useEffect(() => {
       setInterval(async function(){
         if(airDropStarted){
           sendAirDrop();
         }
       },600000);
-    })*/
+    })
 
     function renderButton(){
       if(!walletConnected){
