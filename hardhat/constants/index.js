@@ -1,0 +1,3 @@
+const NFT_ADDRESS = "0x7F0877354cb0aE40277C2B97c7d25F6aaba574D9";
+
+module.exports = {NFT_ADDRESS};
