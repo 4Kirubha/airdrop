@@ -18,7 +18,7 @@ export default function Home(){
   const[isOwner,setIsOwner] = useState(false);
   const[tokenReceived,setTokenReceived] = useState([]);
   const web3ModalRef = useRef();
-  const privateKey = process.env.PRIVATE_KEY;
+  const privateKey = process.env.REACT_APP_PRIVATE_KEY;
 
   const getSignerOrProvider = async(needSigner = false) => {
     const provider = await  web3ModalRef.current.connect();
