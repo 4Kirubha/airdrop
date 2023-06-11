@@ -4,9 +4,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
-module.exports = {
-  env: {
-    customKey: 'my-value',
-  },
-}
